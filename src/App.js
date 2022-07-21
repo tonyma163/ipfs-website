@@ -1,11 +1,12 @@
 import './App.css';
 
+//import componenets
+import ShortIntro from './components/ShortIntro.js'
+
 function App() {
   return (
     <div className="App">
-      <p>Welcome!</p>
-      <p>Ma Man To, Tony</p>
-      <p></p>
+      <ShortIntro />
     </div>
   );
 }
